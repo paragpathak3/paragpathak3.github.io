@@ -1,3 +1,8 @@
+$('.carousel').carousel({
+  interval: 3000
+})
+
+
 jQuery(document).ready(function($) {
 
 
