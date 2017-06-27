@@ -42,11 +42,8 @@
     cursor: pointer;
     transition: 0.3s;
 }
-
 #myImg:hover {opacity: 0.7;}
-
 #myImg1:hover {opacity: 0.7;}
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -61,7 +58,6 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 /* The Modal (background) */
 .modal1 {
     display: none; /* Hidden by default */
@@ -76,7 +72,6 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
@@ -91,7 +86,6 @@
     width: 80%;
     max-width: 700px;
 }
-
 /* Caption of Modal Image */
 #caption {
     margin: auto;
@@ -113,7 +107,6 @@
     padding: 10px 0;
     height: 150px;
 }
-
 /* Add Animation */
 .modal-content, #caption {    
     -webkit-animation-name: zoom;
@@ -127,17 +120,14 @@
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
 }
-
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
-
 /* The Close Button */
 .close {
     position: absolute;
@@ -148,27 +138,23 @@
     font-weight: bold;
     transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
-
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
     }
 }
-
 .carousel-content {
     color:black;
     display:flex;
     align-items:center;
 }
-
 #text-carousel {
   width: 100%;
   height: auto;
@@ -189,8 +175,8 @@
             <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Parag Pathak" height="150" width="150"/>
             <div class="profile-content pull-left">
                 <h1 class="name">Parag Pathak</h1>
-                <h2 class="desc">Systems Engineer at Tata Consultancy Services, Six Sigma Green Belt Certified</h2>  
-				<p>Former Intern at Magna Steyr, Pune</p>  				
+                <h2 class="desc">Software Engineer, Six Sigma Green Belt Certified</h2>  
+				<p>Former Systems Engineer at Tata Consultancy Services</p>  				
                 <ul class="social list-inline">                
                     <li><a href="https://in.linkedin.com/in/parag-pathak-83309350"><i class="fa fa-linkedin"></i></a></li>  						
                 </ul> 
@@ -218,8 +204,13 @@
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
+						 <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="http://www.tcs.com/Pages/default.aspx">Majesco</a></span> <span class="year">(2017 - Present)</span></h3>
+                                    <p>A part of UK Insurance division of Majesco</p>
+									<p>Working as a software developer for a leading UK Group life insurance company. Development and releases for Elixir Group Life product in Agile methodology.</p>
+                            </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Systems Engineer - <span class="place"><a href="http://www.tcs.com/Pages/default.aspx">Tata Consultancy Services</a></span> <span class="year">(2014 - Present)</span></h3>
+                                <h3 class="title">Systems Engineer - <span class="place"><a href="http://www.tcs.com/Pages/default.aspx">Tata Consultancy Services</a></span> <span class="year">(2014 - 2017)</span></h3>
                                     <p>Working on various applications which use Java, Oracle (PLSQL) with JSF, JSPs, and HTML. Have basic knowledge of Struts, Servlets and Hibernate.</p>
 				    <p>As a Scrum Master, designed and developed an Insurance Company website as a preliminary project based on Agile Methodology. Led a team of 6 associates for this project and achieved target delivery on time in 2 sprints.</p>				
 				    <p>Currently leading a small team for development and maintenance of a Finance related application.</p>
@@ -235,7 +226,7 @@
 				         
 				<section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">Projects</h2>
+                        <h2 class="heading">Degree Projects</h2>
                         <div class="content">      
 							<div class="item row">	
                                 <a class="col-md-4 col-sm-4 col-xs-12" target="_blank">
@@ -319,7 +310,7 @@
                         <h2 class="heading">Technical Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                I have worked for Design and Development of IT applications in multiple modules of my project.</p>
+                                I have worked for Design and Development of IT applications in multiple modules in the project.</p>
                             
                             <div class="skillset">
                                
@@ -497,10 +488,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-83920038-1', 'auto');
   ga('send', 'pageview');
-
 </script>
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
@@ -518,7 +507,6 @@
 	<script>
 // Get the modal
 var modal = document.getElementById('myModal');
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
@@ -528,18 +516,14 @@ img.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
     modal.style.display = "none";
 }
-
 // Get the modal
 var modal1 = document.getElementById('myModal1');
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img1 = document.getElementById('myImg1');
 var modalImg1 = document.getElementById("img02");
@@ -551,13 +535,10 @@ img1.onclick = function(){
 }
 // Get the <span> element that closes the modal
 var span1 = document.getElementsByClassName("close")[1];
-
 // When the user clicks on <span> (x), close the modal
 span1.onclick = function() { 
     modal1.style.display = "none";
 }
-
 </script>
 </body>
 </html> 
-
