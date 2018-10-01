@@ -94,12 +94,10 @@ a.dotted-link:hover {
 }
 /*
 iframe {
-
     .header {
         padding: 0;
     }
 }
-
 .iframe-wrapper {
     overflow: auto;
     -webkit-overflow-scrolling:touch;
@@ -491,6 +489,7 @@ iframe {
 .footer {
   background: #32383e;
   color: #fff;
+  vertical-align : bottom;
   padding: 10px 0;
 }
 .footer .copyright {
@@ -572,5 +571,3 @@ iframe {
 	height:300px;
   }
 }
-
-
